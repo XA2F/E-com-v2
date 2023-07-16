@@ -1,0 +1,1 @@
+mongodb+srv://Ecom-v2:ECOMV2@cluster0.ebdihin.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
