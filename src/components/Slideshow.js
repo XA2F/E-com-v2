@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './Slideshow.css';
 
 const Slideshow = () => {
+  // State variable to track the current slide index
   const [currentSlide, setCurrentSlide] = useState(0);
 
   // Array of slide data
@@ -40,8 +41,8 @@ const Slideshow = () => {
       {slides.map((slide, index) => (
         <div
           key={index}
-          className={`slide ${index === currentSlide ? 'active' : ''}`}
-          style={{ backgroundImage: `url(${slide.image})` }}
+          className={`slide ${index === currentSlide ? 'active' : ''}`} //add the active class for the current slide
+          style={{ backgroundImage: `url(${slide.image})` }} //this would just target the background image of the slides
         >
           <div className="slide-content">
             <h2>{slide.title}</h2>
@@ -52,5 +53,7 @@ const Slideshow = () => {
     </div>
   );
 };
+
+//render the slide title and render slide description.
 
 export default Slideshow;

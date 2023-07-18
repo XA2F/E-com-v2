@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import './ContactForm.css'; // Import the CSS file for styling
 
 const ContactForm = () => {
+  // State variables to store form inputs and error message
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [comment, setComment] = useState('');
   const [error, setError] = useState('');
 
+  // Event handlers for input changes
   const handleNameChange = (e) => {
     setName(e.target.value);
   };
@@ -19,6 +21,7 @@ const ContactForm = () => {
     setComment(e.target.value);
   };
 
+  // Form submission handler
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -39,8 +42,6 @@ const ContactForm = () => {
     }
 
     // If all fields are valid, handle form submission
-    // Here, you can make an API request or perform any desired action
-    // For this example, we simply log the form data
     console.log('Name:', name);
     console.log('Email:', email);
     console.log('Comment:', comment);
@@ -55,7 +56,7 @@ const ContactForm = () => {
   return (
     <div className="contact-container">
       <h2>Contact Us</h2>
-      {error && <p>{error}</p>}
+      {error && <p>{error}</p>} {/* Display error message if it exists */}
       <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>

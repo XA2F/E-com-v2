@@ -1,7 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+}
+
 .navbar {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-around;
   padding: 10px;
   background-color: #f0c040;
 }
@@ -13,6 +23,9 @@
   color: #000;
   font-weight: bold;
   font-size: 18px;
+  color: brown;
+  font-weight: 600;
+  font-size: 2.4rem;
 }
 
 .navbar-logo img {
