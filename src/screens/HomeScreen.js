@@ -1,12 +1,15 @@
-import React, { useEffect, useReducer, } from 'react';
+import React, { useEffect, useReducer } from 'react';
 import axios from 'axios';
 import logger from 'use-reducer-logger';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Product from '../components/Product';
-import { Helmet } from 'react-helmet-async';
+// import { Helmet } from 'react-helmet-async';
+import Slideshow from '../components/Slideshow';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
+import ContactForm from '../components/ContactForm';
+import Footer from '../components/Footer';
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -70,9 +73,7 @@ const HomeScreen = () => {
 
   return (
     <div>
-      <Helmet>
-        <title>Fancy Pants</title>
-      </Helmet>
+      <Slideshow />
       <h1>Featured Products</h1>
       <div className="filters">
         <div className="filter-item">
@@ -118,6 +119,8 @@ const HomeScreen = () => {
           </Row>
         )}
       </div>
+      <ContactForm />
+      <Footer />
     </div>
   );
 };

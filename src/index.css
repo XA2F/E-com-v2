@@ -7,10 +7,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* * {
+* {
   list-style-type: none;
   text-decoration: none;
-} */
+}
+
+.fp-logo img {
+  width: auto;
+  height: 200px;
+}
 
 .site-container {
   min-height: 100vh;
@@ -19,8 +24,8 @@ main {
   flex: 1;
 }
 .btn-primary {
-  background-color: #f0c040;
-  color: #000000;
+  background-color: rgba(117, 117, 117, 0);
+  color: #373737;
 }
 .products {
   display: flex;
@@ -28,10 +33,10 @@ main {
   justify-content: center;
 }
 .rating span {
-  color: #ffc000;
+  color: #720000;
 }
 .product {
-  border: 1px #404040 solid;
+  border: 2px #404040 solid;
   margin: 1rem;
 }
 .product img {
@@ -47,82 +52,4 @@ main {
 
 .img-thumbnail {
   height: 80px;
-}
-
-/* isually-hidden {
-  color: red;
-} */
-
-.main {
-  display: flex;
-  flex-wrap: wrap;
-  margin-left: 140px;
-  justify-content: space-evenly;
-}
-.col {
-  width: 25%;
-}
-
-.col h4 {
-  font-size: 1.2rem;
-  color: black;
-  margin-bottom: 25px;
-  position: relative;
-  z-index: 5;
-}
-
-.col h4::before {
-  content: '';
-  position: absolute;
-  height: 2px;
-  width: 50px;
-  left: 0;
-  bottom: -8px;
-}
-
-.col ul li:not(last-child) {
-  margin-bottom: 15px;
-}
-
-.col ul li a {
-  color: #9897a9;
-  font-size: 1.1rem;
-  display: block;
-  text-transform: capitalize;
-  transition: 0.4s;
-  margin-left: -20px;
-}
-
-.col ul li a:hover {
-  color: rgb(0, 0, 0);
-  transform: translateX(-1px);
-}
-
-.col .social {
-  width: 220px;
-  display: flex;
-  align-items: center;
-  justify-self: space-around;
-}
-
-.col .social a {
-  height: 40px;
-  width: 40px;
-  background: brown;
-  color: rgb(0, 0, 0);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem;
-  border-radius: 50%;
-  transition: 0.4s;
-}
-
-/* footer {
-  background-image: url('images/man-in-brown.webp');
-} */
-.col .social a:hover {
-  transform: scale(1.2);
-  color: rgb(255, 255, 255);
-  background: black;
 }

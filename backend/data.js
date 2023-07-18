@@ -5,12 +5,12 @@ const data = {
       slug: 'Shirt-1', // Update the slug to "button-1"
       category: 'Shirts',
       image: '/images/shirt1.webp',
-      price: 120,
+      price: 100,
       description: 'Red-Black Button Up',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 5,
+      brand: 'Nan-juice',
+      rating: 3.5,
+      numReviews: 300,
     },
 
     {
@@ -18,12 +18,12 @@ const data = {
       slug: 'Shirt-2',
       category: 'Shirts',
       image: '/images/shirt2.webp', // 679px × 829px
-      price: 150,
+      price: 110,
       description: 'Beige Button Up',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 4,
+      brand: 'Nan-juice',
+      rating: 4.0,
+      numReviews: 350,
     },
 
     {
@@ -33,10 +33,10 @@ const data = {
       image: '/images/shirt3.webp', // 679px × 829px
       price: 180,
       description: 'A Dawson Product',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 6,
+      brand: 'Nan-juice',
+      rating: 3.1,
+      numReviews: 700,
     },
 
     {
@@ -46,10 +46,10 @@ const data = {
       image: '/images/shirt4.webp', // 679px × 829px
       price: 210,
       description: 'Geometric Waves Short Sleeve Button Up-Burgundy',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 1,
+      brand: 'Nan-juice',
+      rating: 3.2,
+      numReviews: 300,
     },
 
     {
@@ -59,10 +59,10 @@ const data = {
       image: '/images/shirt5.webp', // 679px × 829px
       price: 240,
       description: ' Circled out Textured Button Up Light Blue',
-      countInStock: 10,
-      brand: 'Nike',
+      countInStock: 7,
+      brand: 'Nan-juice',
       rating: 4.5,
-      numReviews: 10,
+      numReviews: 650,
     },
 
     {
@@ -72,10 +72,10 @@ const data = {
       image: '/images/shirt6.webp', // 679px × 829px
       price: 270,
       description: 'Beige, Black, Red, Orange, Mixture',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 9,
+      brand: 'Nan-juice',
+      rating: 3.5,
+      numReviews: 800,
     },
 
     {
@@ -85,10 +85,10 @@ const data = {
       image: '/images/short1.webp', // 679px × 829px
       price: 240,
       description: 'Montes Volley Two Tone Shorts',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 9,
+      brand: 'Nan-juice',
+      rating: 3.6,
+      numReviews: 228,
     },
     {
       name: 'Cloud Mixed Shorts For You',
@@ -97,10 +97,10 @@ const data = {
       image: '/images/short2.webp', // 679px × 829px
       price: 35,
       description: 'Cloud Mixed Red Outline Shorts',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 4,
+      brand: 'Nan-juice',
+      rating: 3.7,
+      numReviews: 521,
     },
     {
       name: ' The Modern Smiley Shorts',
@@ -109,10 +109,10 @@ const data = {
       image: '/images/short3.webp', // 679px × 829px
       price: 50,
       description: ' A Pattern To Smile For',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 6,
+      brand: 'Nan-juice',
+      rating: 3.7,
+      numReviews: 889,
     },
     {
       name: 'Golden Hour Short To live',
@@ -121,10 +121,10 @@ const data = {
       image: '/images/short4.webp', // 679px × 829px
       price: 30,
       description: ' Golden Beige Shorts',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 8,
+      brand: 'Nan-juice',
+      rating: 3.9,
+      numReviews: 421,
     },
     {
       name: 'Players Club Two Tone Shorts',
@@ -133,10 +133,10 @@ const data = {
       image: '/images/short5.webp', // 679px × 829px
       price: 70,
       description: 'Two Tone Shorts ',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 8,
+      brand: 'Nan-juice',
+      rating: 4.0,
+      numReviews: 800,
     },
 
     {
@@ -146,10 +146,10 @@ const data = {
       image: '/images/short6.webp', // 679px × 829px
       price: 10,
       description: ' White Black Smiley Shorts',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 4,
+      brand: 'Nan-juice',
+      rating: 3.6,
+      numReviews: 634,
     },
 
     {
@@ -159,10 +159,10 @@ const data = {
       image: '/images/pant1.webp', // 679px × 829px
       price: 40,
       description: ' Velvet Bronze Pants',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 7,
+      brand: 'Nan-juice',
+      rating: 3.0,
+      numReviews: 223,
     },
 
     {
@@ -172,10 +172,10 @@ const data = {
       image: '/images/pant2.webp', // 679px × 829px
       price: 60,
       description: ' Brown Suit Pants',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 7,
+      brand: 'Nan-juice',
+      rating: 3.3,
+      numReviews: 610,
     },
 
     {
@@ -185,10 +185,10 @@ const data = {
       image: '/images/pant3.webp', // 679px × 829px
       price: 30,
       description: ' Navy Blue Pants',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 8,
+      brand: 'Nan-juice',
+      rating: 3.0,
+      numReviews: 390,
     },
 
     {
@@ -198,10 +198,10 @@ const data = {
       image: '/images/pant4.webp', // 679px × 829px
       price: 60,
       description: ' Grey Suit Pants',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 6,
+      brand: 'Nan-juice',
+      rating: 4.0,
+      numReviews: 900,
     },
 
     {
@@ -211,10 +211,10 @@ const data = {
       image: '/images/pant5.webp', // 679px × 829px
       price: 70,
       description: ' Black Suit Pants',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
+      countInStock: 3,
+      brand: 'Nan-juice',
+      rating: 3.6,
+      numReviews: 712,
     },
 
     {
@@ -224,11 +224,10 @@ const data = {
       image: '/images/pant6.webp', // 679px × 829px
       price: 80,
       description: ' Brown Upstream Nylon Modern pants',
-      countInStock: 10,
-      brand: 'Nike',
-      rating: 4.5,
-      numReviews: 10,
-      value: 'Pants',
+      countInStock: 9,
+      brand: 'Nan-juice',
+      rating: 3.7,
+      numReviews: 789,
     },
   ],
 };
