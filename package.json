@@ -29,7 +29,7 @@
         "postcss": "^8.4.26"
       },
       "scripts": {
-        "build": "your-build-command"
+        "build": "react-scripts build"
       }
     },
     "node_modules/@aashutoshrathi/word-wrap": {
