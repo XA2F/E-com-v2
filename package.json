@@ -1,6 +1,6 @@
 {
   "name": "et2",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
@@ -29,7 +29,8 @@
         "postcss": "^8.4.26"
       },
       "scripts": {
-        "build": "react-scripts build"
+        "build": "react-scripts build",
+        "start": "react-scripts start"
       }
     },
     "node_modules/@aashutoshrathi/word-wrap": {
@@ -17280,5 +17281,12 @@
         "url": "https://github.com/sponsors/sindresorhus"
       }
     }
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "cypress": "^12.17.2"
   }
 }
